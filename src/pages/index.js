@@ -82,8 +82,17 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        SMK Bandung <b>Kelompok 3!</b>
+        SMK Bandung<br/>
+          <b>Kelompok 3!</b>
       </h1>
+
+      <h4>
+        Alfi Yudin Raihan<br/>
+        Aris Koharudin<br/>
+        Sandri Arya Fikriawan<br/>
+        Sigit Aprilian<br/>
+        Suwandana Suryana Putera<br/>
+      </h4>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
